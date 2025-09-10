@@ -7,3 +7,9 @@ Datatype
    d) NULL
    e) Undefined
    f) Symbol
+
+2. Non Primitive Datatype
+   <!-- Array, Object, Function -->
+   A) Array
+   B) Object
+   C) Function
