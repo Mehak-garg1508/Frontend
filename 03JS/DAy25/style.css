@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(222, 222, 211);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  padding: 40px 0px;
+}
+
+.container {
+  background-color: white;
+  padding: 20px;
+  position: relative;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  background-color: rgb(32, 32, 190);
+  padding: 8px;
+  border-radius: 5px;
+  color: white;
+  margin-top: 15px;
+  /* margin-bottom: 5px; */
+  font-size: 20px;
+  width: 100%;
+}
+
+#out {
+  margin-top: 10px;
+  font-size: 20px;
+}
