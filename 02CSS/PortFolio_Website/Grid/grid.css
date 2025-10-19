@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  display: border-box;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  padding: 10px;
+  background-color: aqua;
+  display: grid;
+  /* To remove the condition of overflow that was occuring in 200px we used fraction like 1fr*/
+  /* grid-template-columns: 200px 200px; */
+  /* grid-template-columns: 1fr 1fr; */
+  /* 1portion pehle vala column ko milega aur 2 portion dusre vala column ko */
+  grid-template-columns: 1fr 2fr;
+  /* grid-template-rows: 200px 200px; */
+  grid-template-rows: 1fr 1fr;
+  height: 400px;
+  width: 400px;
+  gap: 20px;
+}
+
+.first {
+  background-color: orange;
+}
+
+.second {
+  background-color: green;
+}
+
+.third {
+  background-color: red;
+}
+
+.fourth {
+  background-color: blue;
+}

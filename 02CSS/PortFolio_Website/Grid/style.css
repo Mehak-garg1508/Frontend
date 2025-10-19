@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: aqua;
+  height: 500px;
+  width: 500px;
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+}
+
+.first,
+.second {
+  height: 200px;
+  width: 100px;
+}
+
+.first {
+  background-color: yellow;
+}
+
+.second {
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.part1 {
+  height: 90px;
+  background-color: green;
+}
+
+.part2 {
+  height: 90px;
+  background-color: blue;
+}
