@@ -1,0 +1,7 @@
+placeOrder(() => {
+//   preparingOrder(() => {
+//     pickOrder(() => {
+//       delieveryOrder();
+//     });
+//   });
+// });
